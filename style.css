@@ -1,0 +1,27 @@
+/*Font family du document*/
+@font-face {
+    font-family: raleway, sans-serif;
+    src: url(./Raleway/Raleway-Italic-VariableFont_wght.ttf);
+    src: url(./Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+#blocbody{
+    margin: 20px 40px 20px 40px;
+}
+/*Style header*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    font-family:"raleway", sans-serif;
+}
+
+nav li{
+    margin: 0 10px 0 10px;
+}
