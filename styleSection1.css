@@ -1,0 +1,111 @@
+/*installation de la première section*/
+
+
+section h1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+section p{
+    font-size: medium ; 
+
+}
+
+button{
+    background-color: #fff;
+    padding: 15px 15px 15px 20px;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    
+   
+
+}
+
+input#ville{
+    border: none;
+    font-size: 1rem;
+    
+}
+
+.blochead{
+    margin: 0 10px 0 10px;
+}
+
+#section1{
+    width: 80%;
+    margin-bottom: 20px;
+}
+#section1 p{
+    font-family: Raleway-VariableFont_wght;
+}
+
+
+#commandesearch{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+      
+}
+
+
+#map{
+    border: none;
+    line-height: 3;
+    padding: 0 15px;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 15px;
+    background-color:#F2F2F2;
+}
+
+#loupe{
+    border: none;
+    line-height: 2.5;
+    padding: 0 15px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px 15px 15px 10px;
+    background-color:#0065FC;
+    
+}
+button#loupe{
+    border: none;
+}
+#fullfiltres h2{
+    font-size: medium;
+}
+
+div#filtres{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: repeat(3,1fr);
+}
+
+i#icon{
+    border: none;
+    line-height: 3;
+    padding: 0 15px;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 25px;
+    background-color:#DEEBFF;
+    color: #0065FC;
+}
+
+div#dog{
+    grid-area: 3/1;
+    text-align:start;
+}
+ i#info{
+     color:#0065FC ;
+     background-color:#fff ;
+     border: 1px solid #F2F2F2;
+     border-radius: 20px 10px;
+     font-size: 10px;
+     padding: 5px;
+     text-align: center;
+ }   
