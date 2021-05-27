@@ -16,3 +16,8 @@ footer li{
 footer div{
     margin-left: 10px;
 }
+
+@media all and (min-width :768px){
+   
+
+}

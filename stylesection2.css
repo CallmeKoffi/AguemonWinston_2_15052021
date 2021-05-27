@@ -58,7 +58,7 @@ article{
 }
 article h2{
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 article p{
     font-size: 15px;
@@ -67,4 +67,9 @@ article p{
 
 article div.star{
     margin-bottom: 20px;
+}
+
+@media all and (min-width :768px){
+   
+
 }

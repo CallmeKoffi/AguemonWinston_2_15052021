@@ -19,3 +19,8 @@ div#activity h2{
 div.layoutactivity{
     background-color: #fff;
 }
+
+@media all and (min-width :768px){
+   
+
+}
