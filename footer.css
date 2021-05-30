@@ -18,6 +18,18 @@ footer div{
 }
 
 @media all and (min-width :768px){
-   
-
+   footer.grey{
+       display: flex;
+       justify-content: space-around;
+   }
+   div.foot{
+       margin: 0;
+   }
+footer li{
+    padding:0;
+    margin: 0 0 5px 0;
+}
+footer li{
+    height: initial;
+}
 }

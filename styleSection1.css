@@ -36,7 +36,7 @@ input#ville{
     margin-bottom: 20px;
 }
 #section1 p{
-    font-family: Raleway-VariableFont_wght;
+    font-family: 'Raleway-Black';
 }
 
 
@@ -111,6 +111,29 @@ div#dog{
  }   
 
  @media all and (min-width :768px){
+     div#fullfiltres{
+         display: flex;
+         
+     }
+     div#filtres{
+         display: flex;
+         justify-content: space-between;
+     }
    
+     div#houses{
+         display: flex;
+         flex-direction: row-reverse;
+         justify-content: center;
+     }
+     div#houses1{
+         display: flex;
+     }
+
+     div#houses2{
+         display:flex;
+     }
+     .imagearticle{
+         width: 10rem;
+     }
 
 }
