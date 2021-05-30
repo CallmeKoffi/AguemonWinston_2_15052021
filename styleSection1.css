@@ -135,5 +135,8 @@ div#dog{
      .imagearticle{
          width: 10rem;
      }
+     div.button{
+         margin-left: 3rem;
+     }
 
 }
