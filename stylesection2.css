@@ -101,7 +101,7 @@ h2#more{
     width: 60%;
   }
   article h2 {
-    margin: 20px 0 10px 10px;
+    margin: 20px 0 10px 0;
     font-size: 1rem;
   }
   article p {
@@ -134,6 +134,9 @@ h2#more{
     justify-content: space-between;
     
   }
+  article div.star{
+    margin-left: 10px;
+  }
 
   div#Amine,
   #basket,
@@ -157,14 +160,13 @@ h2#more{
   div#popular{
     padding: 0 30px;
 }
-  div.titlehouses {
-    padding-left: 5px;
-  }
+  
 
   article.grey {
     border-radius: 20px;
     padding: 0 10px;
     width: 70%;
+    background-color: #F2F2F2;
   }
   
   div.favorite {
@@ -178,13 +180,12 @@ h2#more{
   #bluewhite {
     border-radius: 20px;
     padding: 0;
-    width: 80%;
+    width: 100%;
+    margin-right: 10px;
   }
   #sun,
   #host {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
-  article div.star {
-    margin: 5px;
-  }
+  
 }
