@@ -1,8 +1,12 @@
 /*Section Activité*/
 
-div#activity h1{
+section.guide{
+    margin: 30px;
+}
+section.guide h1{
     margin-left: 10px;
 }
+
 
 div#activity h2{
     font-size: small;
@@ -21,6 +25,31 @@ div.layoutactivity{
 }
 
 @media all and (min-width :768px){
-   
+    
+    div#activity{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    }
+
+    div#oldport{
+        grid-area: 1/1/3/1;
+    }
+    div#church{
+        grid-area: 1/4;
+    }
+    div#longchamps{
+        grid-area: 2/4;
+    }
+    div#fort{
+        grid-area: 1/2;
+    }
+    div#island{
+        grid-area: 2/2;
+    }
+    div#park{
+        grid-area: 1/3/3/3;
+    }
+    
 
 }
