@@ -13,7 +13,7 @@ section p{
 button{
     background-color: #fff;
     padding: 15px 15px 15px 20px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid lightgrey;
     border-left: none;
     border-radius: 0 20px 20px 0;
     
@@ -56,7 +56,7 @@ input#ville{
     text-align: center;
     text-shadow: 1px 1px 1px #000;
     border-radius: 15px;
-    background-color:#F2F2F2;
+    background-color:lightgrey;
 }
 
 #loupe{
@@ -73,6 +73,9 @@ input#ville{
 }
 button#loupe{
     border: none;
+}
+div#look{
+    display: none;
 }
 #fullfiltres h2{
     font-size: medium;
@@ -103,7 +106,7 @@ div#dog{
  i#info{
      color:#0065FC ;
      background-color:#fff ;
-     border: 1px solid #F2F2F2;
+     border: 1px solid lightgrey;
      border-radius: 20px 10px;
      font-size: 10px;
      padding: 5px;
@@ -132,11 +135,27 @@ div#dog{
      div#houses2{
          display:flex;
      }
-     .imagearticle{
-         width: 10rem;
-     }
+     
      div.button{
          margin-left: 3rem;
+     }
+     form{
+         width: 100%;
+     }
+     i.fa-search:before{
+         display: none;
+     }
+     p#research{
+         display: flex;
+         align-items:center ;
+     }
+     button#loupe{
+         line-height: 1rem;
+         border-radius: 0 10pX 10px 0;
+         padding-bottom: 13px;
+     }
+     div#look{
+         display:inherit;
      }
 
 }

@@ -1,75 +1,157 @@
 /*Section logement*/
 
-.grey{
-    background-color: #f2f2f2;
-    margin-left: 0;
+.grey {
+  background-color: lightgrey;
+  margin-left: 0;
 }
 
-#popular{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding-right: 15px;
+#popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
 }
-.imageaside{
-    width: 10rem;
-    height: 8rem;
-    border-radius: 20px 0 0 20px;
+.imageaside {
+  width: 10rem;
+  height: 8rem;
+  border-radius: 20px 0 0 20px;
 }
 
-#sun, #host, #bluewhite{
+#sun,
+#host,
+#bluewhite {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 10px 15px 0;
+  border-radius: 0 20px 20px 0;
+}
+
+aside {
+  margin-left: 10px;
+}
+aside h2 {
+  font-size: 1rem;
+}
+aside p {
+  font-size: 15px;
+}
+aside div {
+  padding-left: 10px;
+}
+div.star {
+  padding: 0;
+  color: #0065fc;
+  font-size: 12px;
+}
+i#emptystar {
+  color: lightgrey;
+}
+.imagearticle {
+  width: 90%;
+  height: 8rem;
+  border-radius: 15px 15px 0 0;
+}
+article {
+  margin-left: 10px;
+}
+article h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+article p {
+  font-size: 15px;
+  margin: 0;
+}
+
+article div.star {
+  margin-bottom: 20px;
+}
+
+@media all and (min-width: 768px) {
+  article {
+    width: 60%;
+  }
+  article h2 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  article p {
+    margin-bottom: 5px;
+  }
+  aside {
+    width: 30%;
+  }
+
+  aside.grey {
+    width: 25%;
+  }
+
+  img.imagearticle {
+    width: 15rem;
+  }
+
+  img.imageaside {
+    width: 7rem;
+    padding: 5px 5px;
+  }
+
+  div#houses {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  div#Amine,
+  #basket,
+  #bird,
+  #port,
+  #hostel,
+  #sea {
     background-color: #fff;
-    padding: 0 10px 15px 0;
-    border-radius: 0 20px 20px 0;
-
-
-}
-
-aside{
-    margin-left: 10px;
-}
-aside h2{
-    font-size: 1rem;
-}
-aside p{
-    font-size: 15px;
-}
-aside div{
-    padding-left: 10px ;
-}
-div.star{
-    padding: 0;
-    color: #0065FC;
-    font-size: 12px;
-}
-i#emptystar{
-    color: lightgrey;
-    
-}
-.imagearticle{
-    width: 95%;
-    height: 8rem;
-    border-radius: 15px 15px 0 0;
-}
-article{
-    margin-left: 10px;
-}
-article h2{
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-article p{
-    font-size: 15px;
-    margin: 0;
-}
-
-article div.star{
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  div#houses1 {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  div#houses2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  div#popular{
+    padding: 0 30px;
 }
+  div.titlehouses {
+    padding-left: 5px;
+  }
 
-@media all and (min-width :768px){
-   
+  .grey {
+    border-radius: 20px;
+    padding: 0 10px;
+  }
+  
+  div.favorite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  #sun,
+  #host,
+  #bluewhite {
+    border-radius: 20px;
+    padding: 0;
+    width: 80%;
+  }
+  #sun,
+  #host {
+    margin-bottom: 30px;
+  }
+  article div.star {
+    margin: 5px;
+  }
 }
