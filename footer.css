@@ -17,13 +17,16 @@ div.foot{
     margin-left: 15px;
 }
 
+/*desktop view*/
+
 @media all and (min-width :768px){
    footer.grey{
        display: flex;
        justify-content: space-around;
    }
    div.foot{
-       margin: 0;
+       margin-left: 20px;
+       width: 40%;
    }
 footer li{
     padding:0;
