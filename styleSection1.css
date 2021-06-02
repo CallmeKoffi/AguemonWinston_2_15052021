@@ -114,6 +114,10 @@ div#dog{
  }   
 
  @media all and (min-width :768px){
+    main{
+        margin:0 20px;
+    }
+    
      div#fullfiltres{
          display: flex;
          

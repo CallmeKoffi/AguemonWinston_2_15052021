@@ -13,8 +13,8 @@ footer li{
    padding-bottom: 10px;
 }
 
-footer div{
-    margin-left: 10px;
+div.foot{
+    margin-left: 15px;
 }
 
 @media all and (min-width :768px){

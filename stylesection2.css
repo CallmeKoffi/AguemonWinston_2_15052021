@@ -1,7 +1,7 @@
-/*Section logement*/
+/*Section logement populaires*/
 
 .grey {
-  background-color: lightgrey;
+  background-color: #F2F2F2;
   margin-left: 0;
 }
 
@@ -15,6 +15,7 @@
   width: 10rem;
   height: 8rem;
   border-radius: 20px 0 0 20px;
+  object-fit: cover;
 }
 
 #sun,
@@ -23,8 +24,10 @@
   display: flex;
   align-items: center;
   background-color: #fff;
-  padding: 0 10px 15px 0;
-  border-radius: 0 20px 20px 0;
+  padding: 5px ;
+  border-radius:20px ;
+  width: 95%;
+  margin-bottom: 10px;
 }
 
 aside {
@@ -35,9 +38,10 @@ aside h2 {
 }
 aside p {
   font-size: 15px;
+  
 }
 aside div {
-  padding-left: 10px;
+  padding: 0 0 10px 10px;
 }
 div.star {
   padding: 0;
@@ -47,26 +51,50 @@ div.star {
 i#emptystar {
   color: lightgrey;
 }
+/*logement marseille*/
+
+article.grey{
+  background-color: #fff;
+}
+
 .imagearticle {
-  width: 90%;
+  width: 100%;
   height: 8rem;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
 }
 article {
   margin-left: 10px;
 }
+article h1{
+  padding-left: 10px;
+}
+
 article h2 {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
 }
 article p {
   font-size: 15px;
   margin: 0;
+  padding: 5px 0 10px 0;
 }
-
+div.titlehouses, .star{
+  margin-left: 10px;
+}
 article div.star {
   margin-bottom: 20px;
 }
+h2#more{
+  padding-left: 10px;
+}
+#hostel, #port, #bird, #sea, #Amine, #basket{
+  background-color: #F2F2F2;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+/*ecran desktop*/
 
 @media all and (min-width: 768px) {
   article {
@@ -85,21 +113,26 @@ article div.star {
 
   aside.grey {
     width: 25%;
+    border-radius: 20px;
+    
   }
 
   img.imagearticle {
     width: 15rem;
+    object-fit: cover;
   }
 
   img.imageaside {
     width: 7rem;
     padding: 5px 5px;
+    object-fit: cover;
   }
 
   div#houses {
-    display: flex;
-    justify-content: space-around;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
   }
 
   div#Amine,
@@ -128,9 +161,10 @@ article div.star {
     padding-left: 5px;
   }
 
-  .grey {
+  article.grey {
     border-radius: 20px;
     padding: 0 10px;
+    width: 70%;
   }
   
   div.favorite {
