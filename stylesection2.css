@@ -43,11 +43,15 @@ aside p {
 aside div {
   padding: 0 0 10px 10px;
 }
-div.star {
+i.fas.fa-star {
   padding: 0;
   color: #0065fc;
   font-size: 12px;
 }
+i.fas.fa-star.empty {
+  color: rgba(211, 211, 211, 0.37);
+}
+
 i#emptystar {
   color: lightgrey;
 }
