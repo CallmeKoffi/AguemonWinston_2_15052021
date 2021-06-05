@@ -56,7 +56,7 @@ input#ville{
     text-align: center;
     text-shadow: 1px 1px 1px #000;
     border-radius: 15px;
-    background-color:lightgrey;
+    background-color:#F2F2F2;
 }
 
 #loupe{
@@ -107,9 +107,9 @@ div#dog{
      color:#0065FC ;
      background-color:#fff ;
      border: 1px solid lightgrey;
-     border-radius: 20px 10px;
+     border-radius: 50px;
      font-size: 10px;
-     padding: 5px;
+     padding: 5px 10px;
      text-align: center;
  }   
 
@@ -160,6 +160,13 @@ div#dog{
      }
      div#look{
          display:inherit;
+     }
+     div#disponibility{
+         display: flex;
+         align-items: center;
+     }
+     i#info{
+         margin-right: 10px;
      }
 
 }
