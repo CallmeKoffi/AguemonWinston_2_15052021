@@ -86,17 +86,21 @@ article p {
 div.titlehouses{
   margin-left: 10px;
 }
-div.star {
+aside div.star {
   margin-bottom: 20px;
   padding-left: 0;
+}
+article div.star{
+  padding-left: 10px;
 }
 h2#more{
   padding-left: 10px;
 }
 #hostel, #port, #bird, #sea, #Amine, #basket{
   background-color: #F2F2F2;
-  margin: 10px;
+  margin: 10px 10px 15px 10px;
   border-radius: 20px;
+  
 }
 
 /*ecran desktop*/
