@@ -28,16 +28,15 @@ input#ville{
 }
 
 .blochead{
-    margin: 0 10px 0 10px;
+    margin: 0 15px 0 15px;
 }
 
-#section1{
-    width: 80%;
+#titlepage{
+    width: 90%;
     margin-bottom: 20px;
-}
-#section1 p{
     font-family: 'Raleway', sans-serif;
 }
+    
 
 
 #commandesearch{
@@ -74,7 +73,7 @@ input#ville{
 button#loupe{
     border: none;
 }
-div#look{
+span#look{
     display: none;
 }
 #fullfiltres h2{
@@ -103,7 +102,7 @@ div#dog{
     grid-area: 3/1;
     text-align:start;
 }
-div#disponibility{
+div#infoarea{
     display: flex;
     align-items: center;
 }
@@ -163,10 +162,10 @@ div#disponibility{
          border-radius: 0 10pX 10px 0;
          padding-bottom: 13px;
      }
-     div#look{
+     span#look{
          display:inherit;
      }
-     div#disponibility{
+     div#infoarea{
          display: flex;
          align-items: center;
      }
