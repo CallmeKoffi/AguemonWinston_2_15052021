@@ -61,17 +61,16 @@ i.fas.fa-star.empty {
 
 article.grey{
   background-color: #fff;
+  margin: 0 10px;
 }
 
 .imagearticle {
-  width: 100%;
+  width: 95%;
   height: 8rem;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
-article {
-  margin-left: 10px;
-}
+
 article h1{
   padding-left: 10px;
 }
@@ -94,6 +93,7 @@ aside div.star {
 }
 article div.star{
   padding-left: 10px;
+  margin-bottom: 10px;
 }
 h2#moredisplay{
   padding-left: 10px;
