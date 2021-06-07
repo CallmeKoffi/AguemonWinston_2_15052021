@@ -103,6 +103,10 @@ div#dog{
     grid-area: 3/1;
     text-align:start;
 }
+div#disponibility{
+    display: flex;
+    align-items: center;
+}
  i#info{
      color:#0065FC ;
      background-color:#fff ;
@@ -111,6 +115,7 @@ div#dog{
      font-size: 10px;
      padding: 5px 10px;
      text-align: center;
+     margin: 0 10px 15px 0;
  }   
 
  @media all and (min-width :768px){
