@@ -122,7 +122,10 @@ div#infoarea{
  }   
  div.button:hover{
      color: lime;
+     cursor:pointer
+
  }
+/*desktop view*/
 
  @media all and (min-width :768px){
     main{
