@@ -21,7 +21,7 @@ div#activity h2{
     object-fit: cover;
     
 }
-div.layoutactivity{
+a.layoutactivity{
     background-color: #fff;
 }
 
@@ -36,22 +36,22 @@ div.layoutactivity{
     grid-gap: 1rem;
     }
 
-    div#oldport{
+    a#oldport{
         grid-area: 1/1/3/1;
     }
-    div#church{
+    a#church{
         grid-area: 1/4;
     }
-    div#longchamps{
+    a#longchamps{
         grid-area: 2/4;
     }
-    div#fort{
+    a#fort{
         grid-area: 1/2;
     }
-    div#island{
+    a#island{
         grid-area: 2/2;
     }
-    div#park{
+    a#park{
         grid-area: 1/3/3/3;
     }
 
