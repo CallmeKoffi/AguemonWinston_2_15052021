@@ -102,10 +102,106 @@ h2#moredisplay{
   border-radius: 20px;
   
 }
+/*ecran tablette*/
+
+@media all and (min-width: 900px) and (max-width: 1169px) {
+
+  
+   article {
+    width: 60%;
+  }
+  article h2 {
+    margin: 20px 0 10px 0;
+    font-size: 1rem;
+  }
+  article p {
+    margin-bottom: 5px;
+  }
+  aside {
+    width: 30%;
+  }
+
+  aside.grey {
+    width: 95%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  img.imagearticle {
+    width: 15rem;
+    object-fit: cover;
+  }
+
+  img.imageaside {
+    width: 7rem;
+    padding: 5px 5px;
+    object-fit: cover;
+  }
+
+  div#houses {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  div#housesfirstbloc {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  div#housessecondbloc {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  div#Amine,
+  #basket,
+  #bird,
+  #port,
+  #hostel,
+  #sea {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  div#popularhouses{
+    padding: 0 30px;
+}
+  
+
+  article.grey {
+    border-radius: 20px;
+    padding: 0 10px;
+    width: 95%;
+    background-color: #F2F2F2;
+
+  }
+  
+  div.favoritehouses {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #sunroom,
+  #hostroom,
+  #bluewhiteroom {
+    border-radius: 20px;
+    padding: 0;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+
+}
 
 /*ecran desktop*/
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 1170px) {
   article {
     width: 60%;
   }
