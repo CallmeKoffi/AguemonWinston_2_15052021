@@ -1,5 +1,9 @@
 /*installation de la première section*/
-
+:root{
+    --bluelogo: #0065FC;
+    --blueback: #deebff;
+    --backcolor: #F2F2F2;
+}
 
 section h1{
     font-size: 20px;
@@ -13,7 +17,7 @@ section p{
 button{
     background-color: #fff;
     padding: 15px 15px 15px 20px;
-    border: 2px solid lightgrey;
+    border: 2px solid var(--backcolor);
     border-left: none;
     border-radius: 0 20px 20px 0;
     
@@ -55,7 +59,7 @@ input#ville{
     text-align: center;
     text-shadow: 1px 1px 1px #000;
     border-radius: 15px;
-    background-color:#F2F2F2;
+    background-color:var(--backcolor);
 }
 
 #loupe{
@@ -67,7 +71,7 @@ input#ville{
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px 15px 15px 10px;
-    background-color:#0065FC;
+    background-color:var(--bluelogo);
     
 }
 button#loupe{
@@ -94,8 +98,8 @@ i.icon{
     text-align: center;
     text-shadow: 1px 1px 1px #000;
     border-radius: 25px;
-    background-color:#DEEBFF;
-    color: #0065FC;
+    background-color:var(--blueback)F;
+    color: var(--bluelogo);
 }
 
 div#dog{
@@ -107,9 +111,9 @@ div#infoarea{
     align-items: center;
 }
  i#info{
-     color:#0065FC ;
+     color:var(--bluelogo) ;
      background-color:#fff ;
-     border: 1px solid lightgrey;
+     border: 1px solid var(--backcolor);
      border-radius: 50px;
      font-size: 10px;
      padding: 5px 10px;

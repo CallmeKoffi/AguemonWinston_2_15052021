@@ -1,7 +1,12 @@
 /*Section logement populaires*/
+:root{
+  --bluelogo: #0065FC;
+  --blueback: #deebff;
+  --backcolor: #F2F2F2;
+}
 
 .grey {
-  background-color: #F2F2F2;
+  background-color: var(--backcolor);
   margin-left: 0;
 }
 
@@ -45,7 +50,7 @@ aside div {
 }
 i.fas.fa-star {
   padding: 0;
-  color: #0065fc;
+  color: var(--bluelogo);
   font-size: 12px;
 }
 i.fas.fa-star.empty {
@@ -94,7 +99,7 @@ h2#moredisplay{
   padding-left: 10px;
 }
 #hostel, #port, #bird, #sea, #Amine, #basket{
-  background-color: #F2F2F2;
+  background-color: var(--backcolor);
   margin: 10px 10px 15px 10px;
   border-radius: 20px;
   
@@ -174,7 +179,7 @@ h2#moredisplay{
     border-radius: 20px;
     padding: 0 10px;
     width: 95%;
-    background-color: #F2F2F2;
+    background-color: var(--backcolor);
 
   }
   
@@ -265,7 +270,7 @@ h2#moredisplay{
     border-radius: 20px;
     padding: 0 10px;
     width: 70%;
-    background-color: #F2F2F2;
+    background-color: var(--backcolor);
   }
   
   div.favoritehouses {

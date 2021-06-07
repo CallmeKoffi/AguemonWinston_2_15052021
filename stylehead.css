@@ -1,4 +1,11 @@
 /*Font family du document*/
+:root{
+    --bluelogo: #0065FC;
+    --blueback: #DEEBFF;
+    --backcolor: #F2F2F2;
+
+}
+
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -56,11 +63,11 @@ a{
 
 
 li.active{
-    border-bottom:2px solid #0065FC;
-    color:#0065FC;
+    border-bottom:2px solid var(--bluelogo);
+    color:var(--bluelogo);
 }   
 .button{
-    border: 2px solid #f2f2f2;
+    border: 2px solid var(--backcolor);
     border-radius: 50px;
 }
 
@@ -99,8 +106,8 @@ li{
 }
 li.active{
     border-bottom: none;
-    border-top:2px solid #0065FC;
-    color:#0065FC;
+    border-top:2px solid var(--bluelogo);
+    color:var(--bluelogo);
 }
 
    
