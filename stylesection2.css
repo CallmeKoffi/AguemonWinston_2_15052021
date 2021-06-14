@@ -35,7 +35,7 @@
   background-color: #fff;
   padding: 5px ;
   border-radius:20px ;
-  width: 95%;
+  width: 100%;
   margin-bottom: 10px;
   box-shadow: 2px 1px 1px var(--backcolor);
 }
@@ -207,7 +207,7 @@ article div.star{
   .card-inline {
     border-radius: 20px;
     padding: 0;
-    width: auto;
+    width: 100%;
     margin-right: 10px;
   }
   
