@@ -5,6 +5,7 @@ section.guide{
 }
 section.guide h1{
     margin-left: 10px;
+    background-color: var(--backcolor);
 }
 
 
@@ -23,6 +24,7 @@ div#activity h2{
 }
 a.layoutactivity{
     background-color: #fff;
+    box-shadow: 1px 1px 1px var(--backcolor);
 }
 
 /*ecran desktop*/

@@ -10,7 +10,7 @@
   margin-left: 0;
 }
 
-#popularhouses {
+#popularhouses--header {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -37,13 +37,16 @@
   border-radius:20px ;
   width: 95%;
   margin-bottom: 10px;
+  box-shadow: 2px 1px 1px var(--backcolor);
 }
 
 aside {
   margin-left: 10px;
+  background-color: var(--backcolor);
+  border-radius: 20px;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 h3{
@@ -69,7 +72,6 @@ i.fas.fa-star.empty {
 /*logement marseille*/
 
 article.grey{
-  background-color: #fff;
   margin: 0 10px;
 }
 
@@ -109,25 +111,22 @@ article div.star{
   background-color: var(--backcolor);
   margin: 10px 10px 15px 10px;
   border-radius: 20px;
-  
+  box-shadow: 1px 1px 1px var(--backcolor);
 }
 /*ecran tablette*/
 
-@media all and (min-width: 900px) and (max-width: 1169px) {
+@media all and (min-width: 768px) and (max-width: 1169px) {
 
   
-   article {
-    width: 60%;
-  }
   article h2 {
     margin: 20px 0 10px 0;
-    font-size: 1.5rem;
+    
   }
   article p {
     margin-bottom: 5px;
   }
   aside {
-    width: 30%;
+    width: 100%;
   }
 
   aside.grey {
@@ -181,7 +180,7 @@ article div.star{
     padding: 5px;
   }
   
-  div#popularhouses{
+  div#popularhouses--header{
     padding: 0 30px;
 }
   
@@ -189,18 +188,20 @@ article div.star{
   article.grey {
     border-radius: 20px;
     padding: 0 10px;
-    width: 95%;
+    margin-top:10px ;
+    width: 100%;
     background-color: var(--backcolor);
 
   }
   
-  div.favoritehouses {
+  div.popularhouses--cards {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 95%;
   }
 
   .card-inline {
@@ -216,15 +217,10 @@ article div.star{
 /*ecran desktop*/
 
 @media all and (min-width: 1170px) {
-  article {
-    width: 60%;
-  }
+  
   
   article p {
     margin-bottom: 5px;
-  }
-  aside {
-    width: 30%;
   }
 
   aside.grey {
@@ -236,6 +232,7 @@ article div.star{
   img.imagearticle {
     width: 15rem;
     object-fit: cover;
+    
   }
 
   img.imageaside {
@@ -266,19 +263,16 @@ article div.star{
     display: flex;
     justify-content: space-around;
   }
-  div#popularhouses{
-    padding: 0 30px;
-}
   
 
   article.grey {
     border-radius: 20px;
     padding: 0 10px;
     width: 70%;
-    background-color: var(--backcolor);
+    
   }
   
-  div.favoritehouses {
+  div.popularhouses--cards {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -286,7 +280,11 @@ article div.star{
     flex-direction: column;
     align-items: center;
   }
-
+  .card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+  }
   .card-inline {
     border-radius: 20px;
     padding: 0;
