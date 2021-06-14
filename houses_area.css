@@ -11,9 +11,7 @@
 }
 
 #popularhouses--header {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,9 +25,7 @@
 }
 
 .card-inline {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
+  
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -150,9 +146,7 @@ article div.star{
 
   div#houses {
     width: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -160,16 +154,12 @@ article div.star{
   }
   div#housesfirstbloc {
     margin-bottom: 20px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
+    
     display: flex;
     justify-content: space-around;
   }
   div#housessecondbloc {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
+    
     display: flex;
     justify-content: space-around;
   }
@@ -195,9 +185,7 @@ article div.star{
   }
   
   div.popularhouses--cards {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
