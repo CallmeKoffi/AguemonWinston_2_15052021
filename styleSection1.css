@@ -20,7 +20,8 @@ button{
     border: 2px solid var(--backcolor);
     border-left: none;
     border-radius: 0 20px 20px 0;
-    
+    transform: scale(1);
+    transition: transform 400ms;
    
 
 }
@@ -31,7 +32,7 @@ input#ville{
     
 }
 
-.blochead{
+.blocmarge{
     margin: 0 15px 0 15px;
 }
 
@@ -43,7 +44,10 @@ input#ville{
     
 
 
-#commandesearch{
+#searchcity{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     margin-left: 10px;
@@ -76,6 +80,7 @@ input#ville{
 }
 button#loupe{
     border: none;
+    border-radius: 10px;
 }
 span#look{
     display: none;
@@ -88,6 +93,7 @@ div#filtres{
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: repeat(3,1fr);
+    grid-gap: 5px;
 }
 
 i.icon{
@@ -98,7 +104,7 @@ i.icon{
     text-align: center;
     text-shadow: 1px 1px 1px #000;
     border-radius: 25px;
-    background-color:var(--blueback)F;
+    background-color:var(--blueback);
     color: var(--bluelogo);
 }
 
@@ -107,6 +113,9 @@ div#dog{
     text-align:start;
 }
 div#infoarea{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
 }
@@ -122,8 +131,8 @@ div#infoarea{
  }   
  div.button:hover{
      color: lime;
-     cursor:pointer
-
+     cursor:pointer;
+     transform: scale(1.15);
  }
 /*desktop view*/
 
@@ -133,25 +142,40 @@ div#infoarea{
     }
 
      div#fullfiltres{
-         display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
          
      }
      div#filtres{
-         display: flex;
-         justify-content: space-between;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
      }
    
      div#houses{
-         display: flex;
-         flex-direction: row-reverse;
-         justify-content: center;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
      }
      div#houses1{
-         display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
      }
 
      div#houses2{
-         display:flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
      }
      
      div.button{
@@ -164,8 +188,11 @@ div#infoarea{
          display: none;
      }
      p#research{
-         display: flex;
-         align-items:center ;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items:center ;
      }
      button#loupe{
          line-height: 1rem;
@@ -176,8 +203,11 @@ div#infoarea{
          display:inherit;
      }
      div#infoarea{
-         display: flex;
-         align-items: center;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
      }
      i#info{
          margin: 0 10px 0 10px;

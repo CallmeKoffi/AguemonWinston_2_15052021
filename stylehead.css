@@ -16,6 +16,9 @@ body{
 /*Style header*/
 
 nav{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,6 +46,9 @@ a{
 }
 
 .borderhead{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -53,7 +59,7 @@ a{
     right:1rem;
     font-size: small;
 }
-.borderhead #logopage{
+.borderhead #logoheader{
     width: 20%;
     margin-left: 1rem;
 }
@@ -75,16 +81,22 @@ li.active{
 @media all and (min-width :768px) {
    
 .borderhead{
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: space-around;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
     
 }
 nav{
     width: 100%;
 }
 ul{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: flex-end;
     list-style: none;

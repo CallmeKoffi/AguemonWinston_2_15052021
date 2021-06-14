@@ -11,6 +11,9 @@
 }
 
 #popularhouses {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,9 +26,10 @@
   object-fit: cover;
 }
 
-#sunroom,
-#hostroom,
-#bluewhiteroom {
+.card-inline {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -38,9 +42,14 @@
 aside {
   margin-left: 10px;
 }
-aside h2 {
+h2 {
+  font-size: 1.5rem;
+}
+
+h3{
   font-size: 1rem;
 }
+
 aside p {
   font-size: 15px;
   
@@ -71,11 +80,11 @@ article.grey{
   object-fit: cover;
 }
 
-article h1{
+article h2{
   padding-left: 10px;
 }
 
-article h2 {
+article h3 {
   font-size: 1rem;
   margin-bottom: 5px;
 }
@@ -95,10 +104,8 @@ article div.star{
   padding-left: 10px;
   margin-bottom: 10px;
 }
-h2#moredisplay{
-  padding-left: 10px;
-}
-#hostel, #port, #bird, #sea, #Amine, #basket{
+
+.card{
   background-color: var(--backcolor);
   margin: 10px 10px 15px 10px;
   border-radius: 20px;
@@ -114,7 +121,7 @@ h2#moredisplay{
   }
   article h2 {
     margin: 20px 0 10px 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   article p {
     margin-bottom: 5px;
@@ -144,6 +151,9 @@ h2#moredisplay{
 
   div#houses {
     width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -151,20 +161,21 @@ h2#moredisplay{
   }
   div#housesfirstbloc {
     margin-bottom: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-around;
   }
   div#housessecondbloc {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-around;
   }
 
-  #Amine,
-  #basket,
-  #bird,
-  #port,
-  #hostel,
-  #sea {
+  .card {
     background-color: #fff;
     border-radius: 20px;
     padding: 5px;
@@ -184,14 +195,15 @@ h2#moredisplay{
   }
   
   div.favoritehouses {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 
-  #sunroom,
-  #hostroom,
-  #bluewhiteroom {
+  .card-inline {
     border-radius: 20px;
     padding: 0;
     width: auto;
@@ -207,10 +219,7 @@ h2#moredisplay{
   article {
     width: 60%;
   }
-  article h2 {
-    margin: 20px 0 10px 0;
-    font-size: 1rem;
-  }
+  
   article p {
     margin-bottom: 5px;
   }
@@ -237,27 +246,23 @@ h2#moredisplay{
 
   div#houses {
     width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     
   }
 
-  #Amine,
-  #basket,
-  #bird,
-  #port,
-  #hostel,
-  #sea {
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 5px;
-  }
   div#housesfirstbloc {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
   }
   div#housessecondbloc {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-around;
   }
@@ -274,22 +279,20 @@ h2#moredisplay{
   }
   
   div.favoritehouses {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  #sunroom,
-  #hostroom,
-  #bluewhiteroom {
+  .card-inline {
     border-radius: 20px;
     padding: 0;
     width: 100%;
-    margin-right: 10px;
+    margin: 0 10px 50px 0;
   }
-  #sunroom,
-  #hostroom {
-    margin-bottom: 50px;
-  }
+  
   
 }
