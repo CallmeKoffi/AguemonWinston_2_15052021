@@ -1,18 +1,12 @@
 /*réalisation footer*/
 
 footer ul{
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
 }
 footer li{
-   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
    display: flex;
    flex-direction: column;
    align-items: flex-start;
@@ -27,9 +21,6 @@ div.foot{
 
 @media all and (min-width :768px){
    footer.grey{
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-around;
    }
