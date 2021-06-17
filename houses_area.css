@@ -1,14 +1,7 @@
 /*Section logement populaires*/
-:root{
-  --bluelogo: #0065FC;
-  --blueback: #deebff;
-  --backcolor: #F2F2F2;
-}
 
-.grey {
-  background-color: var(--backcolor);
-  margin-left: 0;
-}
+
+
 
 #popularhouses--header {
   
@@ -17,28 +10,33 @@
   align-items: center;
   padding-right: 15px;
 }
-.imageaside {
+.popularhouses--cards{
+  padding: 0 10px;
+}
+img.imageaside {
   width: 10rem;
   height: 8rem;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
 }
-
+.blocdisplay{
+  padding: 0 15px;
+}
 .card-inline {
   
   display: flex;
   align-items: center;
   background-color: #fff;
   border-radius:20px ;
-  width: 95%;
+  width: 100%;
   margin-bottom: 10px;
   box-shadow: 2px 1px 1px var(--backcolor);
 }
 
-aside {
-  margin-left: 10px;
+aside, article, footer{
+  margin-bottom: 30px;
   background-color: var(--backcolor);
-  border-radius: 20px;
+  
 }
 h2 {
   font-size: 1.2rem;
@@ -52,9 +50,10 @@ aside p {
   font-size: 15px;
   
 }
-aside div {
-  padding: 0 0 10px 10px;
+.houses__info{
+  padding-left: 10px;
 }
+
 i.fas.fa-star {
   padding: 0;
   color: var(--bluelogo);
@@ -66,11 +65,15 @@ i.fas.fa-star.empty {
 
 /*logement marseille*/
 
-article.grey{
-  margin: 0 10px;
+
+.card{
+  background-color: #fff;
+  margin: 10px 10px 15px 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px #fff;
 }
 
-.imagearticle {
+img.imagearticle {
   width: 95%;
   height: 8rem;
   border-radius: 15px 15px 0 0;
@@ -88,7 +91,7 @@ article h3 {
 article p {
   font-size: 15px;
   margin: 0;
-  padding: 5px 0 10px 0;
+  padding: 5px 0 5px 0;
 }
 div.titlehouses{
   margin-left: 10px;
@@ -99,15 +102,10 @@ aside div.star {
 }
 article div.star{
   padding-left: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.card{
-  background-color: var(--backcolor);
-  margin: 10px 10px 15px 10px;
-  border-radius: 20px;
-  box-shadow: 1px 1px 1px var(--backcolor);
-}
+
 /*ecran tablette*/
 
 @media all and (min-width: 768px) and (max-width: 1169px) {
@@ -120,13 +118,10 @@ article div.star{
   article p {
     margin-bottom: 5px;
   }
+
+
   aside {
     width: 100%;
-  }
-
-  aside.grey {
-    width: 95%;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     
@@ -174,12 +169,12 @@ article div.star{
 }
   
 
-  article.grey {
+  article {
     border-radius: 20px;
     padding: 0 10px;
     margin-top:10px ;
     width: 100%;
-    background-color: var(--backcolor);
+    
 
   }
   
@@ -210,10 +205,10 @@ article div.star{
     margin-bottom: 5px;
   }
 
-  aside.grey {
+  aside {
     width: 25%;
     border-radius: 20px;
-    
+    margin-right:20px ;
   }
 
   img.imagearticle {
@@ -246,10 +241,11 @@ article div.star{
   }
   
 
-  article.grey {
+  article{
     border-radius: 20px;
-    padding: 0 10px;
+    padding: 0 ;
     width: 70%;
+    margin-left: 20px ;
     
   }
   

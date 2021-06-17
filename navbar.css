@@ -78,7 +78,6 @@ li.active{
    
 .borderhead{
     
-    display: -ms-flexbox;
     display: flex;
     flex-direction: row;
     align-content: center;

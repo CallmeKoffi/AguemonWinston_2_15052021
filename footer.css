@@ -20,7 +20,7 @@ div.foot{
 /*desktop view*/
 
 @media all and (min-width :768px){
-   footer.grey{
+   footer{
     display: flex;
     justify-content: space-around;
    }
