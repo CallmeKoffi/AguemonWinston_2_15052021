@@ -125,7 +125,7 @@ div#infoarea{
      cursor:pointer;
      transform: scale(1.15);
  }
-/*desktop view*/
+/*Tab & desktop view*/
 
  @media all and (min-width :768px){
     

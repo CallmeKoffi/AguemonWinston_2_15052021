@@ -73,7 +73,7 @@ li.active{
     border-radius: 50px;
 }
 
-
+/*Tab & desktop view*/
 @media all and (min-width :768px) {
    
 .borderhead{
